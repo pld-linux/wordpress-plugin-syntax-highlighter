@@ -11,6 +11,7 @@ Source0:	%{name}.php
 URL:		http://www.lastengine.com/syntax-highlighter-wordpress-plugin/
 Requires:	js-syntaxhighlighter
 Requires:	wordpress
+Requires:	wordpress-plugin-unfiltered-mu
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
