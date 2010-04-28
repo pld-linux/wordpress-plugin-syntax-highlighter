@@ -9,7 +9,7 @@ Author URI: http://www.lastengine.com
 */
 
 function highlighter_header() {
-	$base_path = '/js/syntax-highlighter/' . basename(dirname(__FILE__)) .'/';
+	$base_path = '/js/syntaxhighlighter/';
 	?>
 	<link type="text/css" rel="stylesheet" href="<?php echo $base_path; ?>styles/shCore.css" />
 	<link type="text/css" rel="stylesheet" href="<?php echo $base_path; ?>styles/shThemeDefault.css" />
